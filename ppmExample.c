@@ -1,12 +1,8 @@
 /* Aidan Trent
- * Creates an example tga image
- * Put together with a elementary understanding of C
+ * Creates an example ppm image
  */
 #include "ppm.h"
 #include <stdio.h>
-
-#define UNCOMP_RGB 2 // Uncompressed RGB image type
-#define IMG_PIXEL_SIZE 24 // 24 bits for RGB. 32 bits for RGB+alpha (not implemented)
 
 int main(void){
 	int width = 100;
